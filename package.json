@@ -7,10 +7,13 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-plus": "^1.1.0-beta.24",
+    "unplugin-vue-components": "^0.16.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"

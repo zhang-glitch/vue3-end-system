@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">main</router-link> |
+    <router-link to="/login">login</router-link>
+    <el-button>我是安你</el-button>
   </div>
   <router-view />
 </template>
