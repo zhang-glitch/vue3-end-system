@@ -3,7 +3,7 @@ module.exports = {
     resolve: {
       alias: {
         views: '@/views',
-        components: '@/components',
+        components: '@/components'
       }
     }
   }

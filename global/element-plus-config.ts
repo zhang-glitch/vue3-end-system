@@ -1,5 +1,5 @@
 import { App } from 'vue'
-import { ElAffix, ElButton } from 'element-plus'
+import { ElButton, ElAffix } from 'element-plus/lib/components'
 import 'element-plus/dist/index.css'
 
 const elComponents = [ElButton, ElAffix]
