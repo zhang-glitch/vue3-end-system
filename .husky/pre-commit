@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 在commit之前格式化代码，让其符合eslint规范
+npm run lint
