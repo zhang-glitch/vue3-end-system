@@ -1,31 +1,26 @@
 <template>
-  <div id="nav">
-    <router-link to="/">main</router-link> |
-    <router-link to="/login">login</router-link>
-    <el-button>我是安你</el-button>
-  </div>
-  <router-view />
+  <el-config-provider :locale="locale">
+    <router-view />
+  </el-config-provider>
 </template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { ElConfigProvider } from 'element-plus/lib/components'
+import zhCn from 'element-plus/lib/locale/lang/zh-cn'
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+export default defineComponent({
+  components: {
+    ElConfigProvider
+  },
+  setup() {
+    return {
+      locale: zhCn
     }
   }
-}
+})
+</script>
+
+<style lang="less">
+@import url('./assets/css/base.less');
+@import url('./assets/css/index.less');
 </style>

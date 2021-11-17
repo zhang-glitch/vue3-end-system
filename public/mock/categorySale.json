@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "上衣",
+    "goodsCount": 1480
+  },
+  {
+    "id": 2,
+    "name": "裤子",
+    "goodsCount": 2010
+  },
+  {
+    "id": 3,
+    "name": "外套",
+    "goodsCount": 3782
+  },
+  {
+    "id": 4,
+    "name": "卫衣",
+    "goodsCount": 1890
+  },
+  {
+    "id": 5,
+    "name": "鞋子",
+    "goodsCount": 2611
+  },
+  {
+    "id": 6,
+    "name": "裙子",
+    "goodsCount": 1822
+  },
+  {
+    "id": 7,
+    "name": "袜子",
+    "goodsCount": 2800
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": 0,
+    "name": "系统总览",
+    "type": 1,
+    "icon": "<monitor />",
+    "url": "/main/analysis",
+    "children": [
+      {
+        "id": "0-1",
+        "name": "核心技术",
+        "type": 2,
+        "url": "/main/analysis/overview",
+        "children": null
+      },
+      {
+        "id": "0-2",
+        "name": "商品统计",
+        "type": 2,
+        "url": "/main/analysis/dashboard",
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "系统管理",
+    "icon": "<tools />",
+    "type": 1,
+    "url": "/main/system",
+    "children": [
+      {
+        "id": "1-1",
+        "name": "用户管理",
+        "type": 2,
+        "url": "/main/system/user"
+      },
+      {
+        "id": "1-2",
+        "name": "部门管理",
+        "type": 2,
+        "url": "/main/system/department"
+      },
+      {
+        "id": "1-3",
+        "name": "菜单管理",
+        "type": 2,
+        "url": "/main/system/menu"
+      },
+      {
+        "id": "1-4",
+        "name": "角色管理",
+        "type": 2,
+        "url": "/main/system/role"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "商品中心",
+    "icon": "<suitcase />",
+    "type": 1,
+    "url": "/main/product",
+    "children": [
+      {
+        "id": "2-1",
+        "name": "商品类别",
+        "type": 2,
+        "url": "/main/product/category",
+        "children": null
+      },
+      {
+        "id": "2-2",
+        "name": "商品信息",
+        "type": 2,
+        "url": "/main/product/goods",
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "随便聊聊",
+    "icon": "<chat-dot-round />",
+    "type": 1,
+    "url": "/main/story",
+    "children": [
+      {
+        "id": "3-1",
+        "name": "你的故事",
+        "type": 2,
+        "url": "/main/story/chat",
+        "children": null
+      },
+      {
+        "id": "3-2",
+        "name": "故事列表",
+        "type": 2,
+        "url": "/main/story/list",
+        "children": null
+      }
+    ]
+  }
+]

@@ -1,17 +1,14 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-// import ElementPlus from 'element-plus'
-// import 'element-plus/dist/index.css'
+import store, { setupStore } from './store'
 import router from './router'
-import store from './store'
-import globalConfig from '../global'
+import globalConfig from './global'
+// import Request from './http/request'
+// import { BASE_URL, TIME_OUT } from './http/request/config'
 
 const app = createApp(App)
-
-app.use(store)
-
-app.use(router)
-
 globalConfig(app)
-// app.use(ElementPlus)
+app.use(store)
+setupStore()
+app.use(router)
 app.mount('#app')
